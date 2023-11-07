@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "empresa";
+$database = "bd_bisuteria";
 
 
 // Crea la conexion
@@ -16,4 +16,3 @@ else {
   //se comenta para que no aparezca en todo lado
    //echo "Conexion ok :)";
 }
- 

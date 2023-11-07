@@ -32,16 +32,11 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-white sidebar sidebar-light accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../paginas/index.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-
-                    <!-- logo de ;)  https://fontawesome.com/search aqui se descargan -->
-                    <i class="fas fa-solid fa-code"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">Nombre Del Proyecto </div>
+            <a class="d-flex align-items-center justify-content-center pt-2" href="../paginas/index.php">
+                <img src="../assets/img/spk-logo.jpg" alt="logo" width="120" height="120">
             </a>
 
             <!-- Linea de separacion  -->
@@ -59,14 +54,14 @@
             <hr class="sidebar-divider my-0">
 
             <div class="sidebar-heading">
-                Empleado
+                Productos
             </div>
 
             <!--Menu Empleados -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="../Empleados/index.php" aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-solid fa-user"></i>
-                    <span>Empleados</span>
+                <a class="nav-link collapsed" href="../Productos/index.php" aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Productos</span>
                 </a>
 
             </li>
@@ -76,38 +71,31 @@
 
             <!-- Clientes -->
             <div class="sidebar-heading">
-                Clientes
+                Usuario
             </div>
 
             <!-- Menu de Clientes -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="../Clientes/index.php" aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="../Usuarios/index.php" aria-expanded="true" aria-controls="collapseTwo">
                     <i class=" fas fa-solid fa-users"></i>
-                    <span>Clientes</span>
+                    <span>Usuario</span>
                 </a>
 
             </li>
-
-            <!-- Linea de separacion  -->
-            <hr class="sidebar-divider my-0">
-
-
-            <!-- Factura -->
-            <div class="sidebar-heading">
-                Facturas
+             
+              <!-- Clientes -->
+              <div class="sidebar-heading">
+                Ventas
             </div>
 
-            <!-- Menu de Facturas -->
+            <!-- Menu de Clientes -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="../Facturas/index.php" aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-regular fa-handshake fa-beat"></i>
-                    <span>Facturas</span>
+                <a class="nav-link collapsed" href="../Ventas/index.php" aria-expanded="true" aria-controls="collapseTwo">
+                    <i class=" fas fa-solid fa-users"></i>
+                    <span>Ventas</span>
                 </a>
 
             </li>
-
-            <!-- Linea de separacion  -->
-            <hr class="sidebar-divider my-0">
 
 
         </ul>
@@ -158,7 +146,7 @@
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
 
 
-                                <a class="dropdown-item" href="../index.html" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="../index.html">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Cerrar Sesion
                                 </a>

@@ -9110,11 +9110,6 @@ a:focus {
   -webkit-animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
   animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
 }
-.bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
-  background-size: cover;
-}
 .bg-gradient-secondary {
   background-color: #858796;
   background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
@@ -9924,7 +9919,7 @@ a:focus {
   }
 }
 .bg-login-image {
-  background: url("../assets/img/pulseras-login.jpg");
+  background: url("assets/img/login .jpg");
   background-position: center;
   background-size: cover;
 }
@@ -9934,7 +9929,7 @@ a:focus {
   background-size: cover;
 }
 .bg-password-image {
-  background: url(https://source.unsplash.com/oWTW-jNGl9I/600x800);
+  background: url(https://enidtc.files.wordpress.com/2019/09/whatsapp-image-2019-09-18-at-8.25.01-pm-1.jpeg?w=219);
   background-position: center;
   background-size: cover;
 }

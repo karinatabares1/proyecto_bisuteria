@@ -37,8 +37,9 @@
   font-size: 3em; }
 
 .fa-4x {
-  font-size: 4em; }
-
+  font-size: 4em; 
+  color: aqua;
+}
 .fa-5x {
   font-size: 5em; }
 
